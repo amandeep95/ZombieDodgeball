@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 3bfa34f973dd8ee4995ecb1f6e036e3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5354403770182403736
+    second: Dodgeball_Prototype5_DashSprites-01_0
+  - first:
+      213: -8184426917690804603
+    second: Dodgeball_Prototype5_DashSprites-01_1
+  - first:
+      213: -2018081474369554959
+    second: Dodgeball_Prototype5_DashSprites-01_2
+  - first:
+      213: -4641338422601117669
+    second: Dodgeball_Prototype5_DashSprites-01_3
+  - first:
+      213: -7130282242601323424
+    second: Dodgeball_Prototype5_DashSprites-01_4
+  - first:
+      213: 8881065163586450513
+    second: Dodgeball_Prototype5_DashSprites-01_5
+  - first:
+      213: 6770005504133694925
+    second: Dodgeball_Prototype5_DashSprites-01_6
+  - first:
+      213: 7683373611623159748
+    second: Dodgeball_Prototype5_DashSprites-01_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 41, y: 0, z: 41, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 699
+        width: 528
+        height: 87
+      alignment: 9
+      pivot: {x: 0.925, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869f34ec32651b5b0800000000000000
+      internalID: -5354403770182403736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 600
+        width: 466
+        height: 87
+      alignment: 9
+      pivot: {x: 0.915, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f4e0d4131b6e80800000000000000
+      internalID: -8184426917690804603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 501
+        width: 401
+        height: 87
+      alignment: 9
+      pivot: {x: 0.9, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5f76067955ef3e0800000000000000
+      internalID: -2018081474369554959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 402
+        width: 343
+        height: 87
+      alignment: 9
+      pivot: {x: 0.885, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b101d76ab47a69fb0800000000000000
+      internalID: -4641338422601117669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 303
+        width: 288
+        height: 87
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f87504162c0d90800000000000000
+      internalID: -7130282242601323424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 204
+        width: 233
+        height: 87
+      alignment: 9
+      pivot: {x: 0.829, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154baae56b1ef3b70800000000000000
+      internalID: 8881065163586450513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_6
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 105
+        width: 233
+        height: 87
+      alignment: 9
+      pivot: {x: 0.825, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc504511324e3fd50800000000000000
+      internalID: 6770005504133694925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodgeball_Prototype5_DashSprites-01_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 6
+        width: 184
+        height: 87
+      alignment: 9
+      pivot: {x: 0.78, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7986d6793d0aa60800000000000000
+      internalID: 7683373611623159748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
