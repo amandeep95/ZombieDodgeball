@@ -168,6 +168,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 519255520, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
+      propertyPath: totalHealth
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 519255522, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
+      propertyPath: damageFactor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 418942443181022398, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: target
       value: 
@@ -178,7 +186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7728313773333464888, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: m_Name
-      value: Hunter Variant
+      value: Hunter
       objectReference: {fileID: 0}
     - target: {fileID: 7728313773333464888, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: m_IsActive
