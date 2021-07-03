@@ -3022,6 +3022,7 @@ MonoBehaviour:
   enemy2: {fileID: 4744151352187720426, guid: c693a167216e2944284c760f284bf37c, type: 3}
   randMin: 2
   randMax: 7
+  spawnNumber: 5
 --- !u!1001 &1678697737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3110,7 +3111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7728313773333464888, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7728313773333464890, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4037,6 +4038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hunter
       objectReference: {fileID: 0}
+    - target: {fileID: 4744151352187720426, guid: c693a167216e2944284c760f284bf37c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c693a167216e2944284c760f284bf37c, type: 3}
 --- !u!1001 &4892598874619525238
@@ -4097,6 +4102,10 @@ PrefabInstance:
     - target: {fileID: 8719462545988063775, guid: 173bbe165548ee347be7b299f53768e1, type: 3}
       propertyPath: m_Name
       value: Popper
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719462545988063775, guid: 173bbe165548ee347be7b299f53768e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 173bbe165548ee347be7b299f53768e1, type: 3}
@@ -4236,6 +4245,10 @@ PrefabInstance:
     - target: {fileID: 7728313773333464888, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: m_Name
       value: Target
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728313773333464888, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7728313773333464890, guid: 5b141df86501d4346aaa3c41c8b4a178, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4418,6 +4431,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 8061697348956840175, guid: 1f79dedf51715034494a2900032bdc3b, type: 3}
+      propertyPath: chargeShotTime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8061697349416881000, guid: 1f79dedf51715034494a2900032bdc3b, type: 3}
       propertyPath: m_IsActive
       value: 1

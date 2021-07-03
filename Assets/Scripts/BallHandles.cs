@@ -11,7 +11,7 @@ public class BallHandles : MonoBehaviour
     public Camera cam;
     public GameObject player;
     private Vector2 dir;
-    public float throwPower;
+    public float throwPower, chargeShotTime;
     public float maxPower, currentPower;
 
     float chargeTime = 0.0f;
@@ -64,7 +64,7 @@ public class BallHandles : MonoBehaviour
 
 
             //throw ball
-            if (Input.GetButtonUp("Fire1") && (chargeTime > 2))
+            if (Input.GetButtonUp("Fire1") && (chargeTime > chargeShotTime))
             {
                 chargeTime = 0;
                 if (ball != null)
@@ -83,7 +83,7 @@ public class BallHandles : MonoBehaviour
                     //chargedUpParticles.Stop();
                 }
             }
-            else if (Input.GetButtonUp("Fire1") && (chargeTime < 2))
+            else if (Input.GetButtonUp("Fire1") && (chargeTime < chargeShotTime))
             {
                 chargeTime = 0;
                 if (ball != null)
