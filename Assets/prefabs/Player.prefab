@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1050602664
 Transform:
   m_ObjectHideFlags: 0
@@ -5057,7 +5057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1835317503
 Transform:
   m_ObjectHideFlags: 0
@@ -5065,14 +5065,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835317502}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.65668, y: 3.453174, z: 3.453171}
   m_Children:
   - {fileID: 1050602664}
   m_Father: {fileID: 8061697348225740422}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &1835317504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5113,8 +5113,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b45942e56b80fe14e8455a4c29a309cb, type: 3}
-  m_Color: {r: 0.9056604, g: 0.17429687, b: 0.17429687, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5eb6a9478c1a5b14fae855d0af8ee6aa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5137,6 +5137,7 @@ GameObject:
   - component: {fileID: 8061697348225740536}
   - component: {fileID: 8061697348225740537}
   - component: {fileID: 8061697348225740539}
+  - component: {fileID: 1080950257}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -5180,7 +5181,7 @@ MonoBehaviour:
   runMultiplier: 1.5
   canRun: 1
   maxRunTime: 3
-  velo: 5
+  velo: 7.5
   dashDistance: 1750
   dashEffect: {fileID: 5994032139256445824, guid: f5ce8d3b4f896d940aa125ecc87a8c33, type: 3}
 --- !u!50 &8061697348225740536
@@ -5245,6 +5246,19 @@ MonoBehaviour:
   cam: {fileID: 0}
   rb: {fileID: 8061697348225740536}
   lookDir: {x: 0, y: 0}
+--- !u!114 &1080950257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8061697348225740420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ef0f380e894594590c934b9d42103a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 5
 --- !u!1 &8061697348956840173
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,9 +5344,9 @@ MonoBehaviour:
   cam: {fileID: 0}
   player: {fileID: 8061697348225740420}
   throwPower: 1000
+  chargeShotTime: 1
   maxPower: 0
   currentPower: 0
-  chargedUpParticles: {fileID: 1426847112}
 --- !u!114 &1813994671
 MonoBehaviour:
   m_ObjectHideFlags: 0
