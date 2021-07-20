@@ -31,15 +31,20 @@ public class EnemyHealth : MonoBehaviour
     {
         if (col.gameObject.tag == "Ball")
         {
-            //ball = col.gameObject;
-            totalHealth--;
-            print("Enemy Hit by ball");
-            //check the ball is moving above a certain velocity and is not held by player
-            //if (ball.GetComponent<Rigidbody2D>().velocity.x >= 1.8f || ball.GetComponent<Rigidbody2D>().velocity.y >= 1.8f)
-            //{
-            //    print("Enemy Hit by ball");
-            //}
+            //print(col.gameObject.GetComponent<DodgeBallVelocity>().speed.magnitude);
+            if (col.gameObject.GetComponent<DodgeBallVelocity>().speed.magnitude > 17)
+            {
+                //print("BallMoveFast");
 
+                //ball = col.gameObject;
+                totalHealth--;
+                print("Enemy Hit by ball");
+                //check the ball is moving above a certain velocity and is not held by player
+                //if (ball.GetComponent<Rigidbody2D>().velocity.x >= 1.8f || ball.GetComponent<Rigidbody2D>().velocity.y >= 1.8f)
+                //{
+                //    print("Enemy Hit by ball");
+                //}
+            }
         }
     }
 }
